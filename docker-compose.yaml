@@ -5,3 +5,4 @@ services:
         image: fastapiapp:latest
         ports:
             - 8001:8000
+
