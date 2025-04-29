@@ -11,4 +11,4 @@ EXPOSE 8001
 
 # CMD ["main:app", "-b", "0.0.0.0:8001", "--reload"]
 
-CMD ["python", "main.py]
+CMD ["python", "main.py"]
