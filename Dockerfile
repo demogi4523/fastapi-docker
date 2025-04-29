@@ -9,6 +9,6 @@ ADD main.py /app/
 
 EXPOSE 8001
 
-CMD ["hypercorn", "main:app", "-b", "0.0.0.0:8001", "--reload"]
+CMD ["cd", "/app/", "&&", "hypercorn", "main:app", "-b", "0.0.0.0:8001", "--reload"]
 
 # RUN hypercorn main:app -b 0.0.0.0:8001 --reload
