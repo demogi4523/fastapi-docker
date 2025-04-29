@@ -5,7 +5,7 @@ ADD requirements.txt /app/
 
 RUN pip install -r requirements.txt
 
-ADD main.py /app/
+COPY main.py /app/
 
 EXPOSE 8001
 
