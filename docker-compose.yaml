@@ -4,8 +4,4 @@ services:
         build: .
         image: fastapiapp:latest
         ports:
-            - 8005:8000
-        volumes:
-            - type: bind
-              source: .
-              target: /app/
+            - 8001:8000
